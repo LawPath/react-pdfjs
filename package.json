@@ -15,7 +15,8 @@
     "build:umd:min": "webpack src/index.js dist/react-pdfjs.min.js --config webpack.config.production.js",
     "clean": "rimraf dist lib",
     "lint": "eslint src",
-    "prepublish": "npm run lint && npm run clean && npm run build"
+    "prepublish": "npm run lint && npm run clean && npm run build",
+    "postinstall": "npm run prepublish"
   },
   "keywords": [
     "react",
