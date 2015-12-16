@@ -4,10 +4,6 @@
   "description": "A React component to wrap PDF.js",
   "main": "./lib/index.js",
   "jsnext:main": "./src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/erikras/react-pdfjs"
-  },
   "scripts": {
     "build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
     "build:lib": "babel src --out-dir lib",
